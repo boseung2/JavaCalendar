@@ -10,6 +10,8 @@ public class sum {
 		int firstNum = scanner.nextInt();
 		int secondNum = scanner.nextInt();
 		System.out.println("두 수의 합은 " + (firstNum + secondNum) + "입니다.");
+		
+		scanner.close();
 	}
 
 }
